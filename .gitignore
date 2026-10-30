@@ -1,0 +1,27 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Flutter / Dart generated files
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+key.properties
+service-account*.json
+firebase-adminsdk*.json
+
+# Firebase local state
+.firebase/
